@@ -1,0 +1,4 @@
+{
+  "include": ["Domain.*", "Application.*"],
+  "exclude": ["Infrastructure.*", "WebApi.*", "UnitTests.*"]
+}

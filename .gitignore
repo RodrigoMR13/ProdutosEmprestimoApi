@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+# Build e IDE
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Publicação
+publish/
+
+# Logs
+WebApi/Logs/log-*
+
+run_sonar.bat
