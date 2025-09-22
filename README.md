@@ -93,7 +93,7 @@ Este projeto foi criado para apoiar cenários de crédito e empréstimos, oferec
 5. Acesse a API em:
 
    ```
-   http://localhost:5244
+   http://localhost:5244/swagger
    ```
 
 ---
