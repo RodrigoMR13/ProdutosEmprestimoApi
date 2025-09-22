@@ -13,13 +13,15 @@ namespace UnitTests.Application.Handlers
     {
         private readonly Mock<IProdutoEmprestimoRepository> _repositoryMock;
         private readonly Mock<IPriceCalculatorService> _priceCalculatorMock;
+        private readonly Mock<ICacheService> _cache;
         private readonly SimularEmprestimoHandler _handler;
 
         public SimularEmprestimoHandlerTests()
         {
             _repositoryMock = new Mock<IProdutoEmprestimoRepository>();
             _priceCalculatorMock = new Mock<IPriceCalculatorService>();
-            _handler = new SimularEmprestimoHandler(_repositoryMock.Object, _priceCalculatorMock.Object);
+            _cache = new Mock<ICacheService>();
+            _handler = new SimularEmprestimoHandler(_repositoryMock.Object, _priceCalculatorMock.Object, _cache.Object);
         }
 
         [Fact]
