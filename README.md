@@ -1,8 +1,7 @@
 # ProdutosEmprestimoApi
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-blueviolet?logo=dotnet)](https://dotnet.microsoft.com/)  
-![Build](https://img.shields.io/github/actions/workflow/status/RodrigoMR13/ProdutosEmprestimoApi/dotnet.yml?label=build&logo=github)  
-![Tests](https://img.shields.io/github/actions/workflow/status/RodrigoMR13/ProdutosEmprestimoApi/tests.yml?label=tests&logo=github)  
+![Build and Tests](https://img.shields.io/github/actions/workflow/status/RodrigoMR13/ProdutosEmprestimoApi/dotnet.yml?label=build&logo=github)  
 ![Coverage](https://img.shields.io/codecov/c/github/RodrigoMR13/ProdutosEmprestimoApi?logo=codecov)
 
 API para gerenciamento de **produtos de empréstimo** e **simulação de empréstimos**, desenvolvida em **.NET 9** com **Clean Architecture**.
